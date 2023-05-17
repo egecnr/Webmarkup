@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* font-family: 'Big Shoulders Text', cursive;
+font-family: 'Bitter', serif; */
+
+body{
+    width:95%;
+    margin:auto;
+    z-index:0;
+    
+
+}
+
+
+    .ulnav
+{
+    background-color:#000000;
+    text-align:center;
+    position:static;
+    
+
+}
+#title{
+    font-size:60px;
+    margin:auto;
+    padding-left:2%;
+    font-family:'Big shoulders Text','Bitter','Roboto', sans-serif;
+}
+#payoff{
+    font-size:30px;
+    font-family:'Big shoulders Text','Bitter','Roboto', sans-serif;
+
+}
+
+
+
+
+.linav
+{
+    COLOR:#FFFFFF;
+    padding:2%;
+    padding-right:70px;
+    padding-left:70px;
+    font-family:Arial;
+    font-size:25pt;
+    display:inline-block;
+    font-weight:bold;
+}
+nav a {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+ .linav:hover{
+     background-color:#707070;
+     color:#000000;
+
+ }
+
+ footer{
+background-color:#2699FB;
+color:#FFFFFF;
+text-align:center;
+margin:auto;
+
+ }
+section{
+    
+    border-top:8px dotted #444444;
+    padding-bottom:50px;    
+    background-color:#F5F5F5;
+    opacity:0.95;
+    
+}
+/* used flexbox to make it more tidy */
+.articles{
+ display: flex;
+}
+.textmain{
+flex:0.6;
+font-size:20px;
+font-family: 'Bitter','Big shoulders','Roboto', sans-serif;
+padding-left:2%;
+
+
+
+
+}
+/* These picture classes used for every pictures except referral page picture */
+.pic1{
+    flex:0.2;
+    width:400px;
+    height:300px;
+    border:4px solid #2699FB;
+    margin-top:10px;
+    z-index:10;
+    position:sticky;
+    margin-left:2%;
+    
+}
+.pic2{
+    flex:0.2;
+    width:400px;
+    height:300px;
+    border:4px solid #2699FB;   
+    margin-top:10px;
+    z-index:10;
+    position:sticky;
+    margin-right:20px;
+    margin-left:2%;
+
+    
+}
+.piccontent{
+    flex:0.2;
+    width:300px;
+    height:300px;
+    border:4px solid #2699FB;
+    margin-left:10px;
+    margin-top:10px;
+    z-index:10;
+    position:sticky;
+
+}
+.piccontent2{
+    flex:0.2;
+    width:300px;
+    height:300px;
+    border:4px solid #2699FB;   
+    margin-left:10px;
+    margin-top:10px;
+    z-index:10;
+    position:sticky;
+    margin-right:20px;
+}
+
+li{
+    font-size:18px;
+    font-family: 'Bitter','Big shoulders','Roboto', sans-serif;
+    margin:auto;
+    font-weight:800; 
+    
+}
+section.cookie-statement {
+    float:right;
+    position: fixed;
+    bottom: 0;
+    right:0;
+    z-index: 9;
+    width: 15%;
+    height: 1.875em;
+    line-height: 1.875em;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.5);
+    border:0;
+    padding-bottom: 0;
+    padding-left:1em;
+    padding-right:1em;
+    
+}
+
+
+
+h2{
+    
+    font-family:'Bitter','Big shoulders','Roboto', sans-serif;
+    font-size:30px;
+    padding-left:2%;
+    padding-top:5%;
+
+}
+aside{
+    width:50%;
+
+}
+.pic3{
+    float:right;
+    width:40%;
+    margin-left:60px;
+    margin-bottom:10px;
+    border:4px solid #2699FB;
+    z-index:10;
+    position:sticky;
+}
+
+/* Contact form section */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=email]{
+      width:100%;
+      padding:12px;
+      border: 1px solid #707070;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+  }
+  button[type=submit] {
+    background-color:#2699FB;
+    color:#FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    width:100%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .forcontact {
+    border-radius: 5px;
+    background-color:#FFFFFF;
+    padding: 20px;
+  }
+textarea{
+height:200px;
+width:300px;
+width:100%;
+      padding:12px;
+      border: 1px solid #AAAAAA;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+}
+/* background video section */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-1;
+  }
+  
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background:#000000;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+ *{
+     margin-top:0;
+ }
+ h3{
+     margin-top:5%;
+     padding-left:5%;
+     font-weight:bold;
+     font-size:1.5em;
+     
+ }
+
+
+
+  
+ 
